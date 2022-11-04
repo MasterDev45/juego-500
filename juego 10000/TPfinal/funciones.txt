@@ -1,0 +1,20 @@
+int tirarDado(){
+    return rand() % 6 + 1;
+}
+
+void cargarNumeros(int vec[], int tam)
+{
+    for(int i=0; i<=tam-1; i++)
+    {
+       //cin >> vec[i];
+       vec[i] = tirarDado();
+    }
+}
+
+void mostrarNumeros(int vec[], int tam)
+{
+    for(int i=0; i<=tam-1; i++)
+    {
+        cout << vec[i] << endl;
+    }
+}
