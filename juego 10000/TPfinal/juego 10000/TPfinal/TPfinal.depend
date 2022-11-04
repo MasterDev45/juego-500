@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1667591818 source:c:\users\husak\onedrive\documentos\lab 1\juego 10000\tpfinal\funciones.cpp
+	<iostream>
+	<cstdlib>
+	"rlutil.h"
+	"funciones.h"
+
+1667586052 c:\users\husak\onedrive\documentos\lab 1\juego 10000\tpfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1667591838 c:\users\husak\onedrive\documentos\lab 1\juego 10000\tpfinal\funciones.h
+
+1667587436 source:c:\users\husak\onedrive\documentos\lab 1\juego 10000\tpfinal\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"rlutil.h"
+	"funciones.h"
+
+1667591818 source:c:\users\husak\onedrive\documentos\lab 1\juego 10000\tpfinal\menu.cpp
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
