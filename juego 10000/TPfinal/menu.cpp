@@ -1,36 +1,10 @@
 #include <iostream>
+#include <cstdio>
+#include <string.h>
+#include <ctime>
 #include "rlutil.h"
 #include "funciones.h"
-#include <ctime>
 using namespace std;
-
-void dibujarmarco(){
-    int i=0,x=0;
-   for (i>0;i<=35;i++){
-        rlutil::setColor(rlutil::COLOR::BLUE);
-
-        rlutil::locate(35+i,7);
-        std::cout<<(char)242;
-
-         rlutil::locate(35+i,16);
-        std::cout<<(char)242;
-
-        for (x>0;x<=8;x++){
-
-        rlutil::setColor(rlutil::COLOR::BLUE);
-        rlutil::locate(71,8+x);
-        std::cout<<(char)186;
-
-        rlutil::setColor(rlutil::COLOR::BLUE);
-        rlutil::locate(34,8+x);
-        std::cout<<(char)186;
-
-        }
-        rlutil::setColor(rlutil::COLOR::WHITE);
-    }
-
-}
-
 
 
 void menu(){
@@ -91,42 +65,27 @@ void menu(){
                  switch (y){
                      case 0:
                          rlutil::cls();
-                         jugador_1();
-                         std::cout<<"Aprete ESC para volver";
-                         rlutil::anykey();
-                         if(04){
-                            rlutil::cls();
-                            return menu();
-
-                         }
-                         else{
-                            op=0;
-                         }
+                         one_player();
+                         rlutil::locate(54, 14);
+                         cout << "Apreta una tecla para Volver..." << endl;
+                         rlutil::getkey();
+                         rlutil::cls();
+                         break;
                      case 1:
                          rlutil::cls();
-                         jugador_2();
-                         std::cout<<"Aprete ESC para volver";
-                         rlutil::anykey();
-                         if(04){
-                            rlutil::cls();
-                            return menu();
-
-                         }
-                         else{
-                            op=0;
-                         }
-                     case 2:
+                         two_player();
+                         cout << "Apreta una tecla para Volver..." << endl;
+                         rlutil::getkey();
+                         rlutil::cls();
+                         break;
+                     case 2:{
                          rlutil::cls();
                          reglas();
                          std::cout<<"Aprete ESC para volver";
-                         rlutil::anykey();
-                         if(04){
-                            rlutil::cls();
-                            return menu();
-
-                         }
-                         else{
-                            op=0;
+                         cout << "Apreta una tecla para Volver..." << endl;
+                         rlutil::getkey();
+                         rlutil::cls();
+                         break;
                          }
                      case 3:
                          op=0;
