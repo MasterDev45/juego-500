@@ -42,3 +42,46 @@
 	"rlutil.h"
 	"funciones.h"
 
+1669589142 source:c:\users\husak\onedrive\documentos\lab 1\juego-10000-main\juego 10000\tpfinal\funciones.cpp
+	<iostream>
+	<cstdlib>
+	"rlutil.h"
+	"funciones.h"
+	<ctime>
+
+1667659589 c:\users\husak\onedrive\documentos\lab 1\juego-10000-main\juego 10000\tpfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1669589385 c:\users\husak\onedrive\documentos\lab 1\juego-10000-main\juego 10000\tpfinal\funciones.h
+
+1667659589 source:c:\users\husak\onedrive\documentos\lab 1\juego-10000-main\juego 10000\tpfinal\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"rlutil.h"
+	"funciones.h"
+
+1669588656 source:c:\users\husak\onedrive\documentos\lab 1\juego-10000-main\juego 10000\tpfinal\menu.cpp
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+	<ctime>
+
+1669588996 source:c:\users\husak\onedrive\documentos\lab 1\juego-10000-main\juego 10000\tpfinal\dados.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"rlutil.h"
+	"funciones.h"
+
