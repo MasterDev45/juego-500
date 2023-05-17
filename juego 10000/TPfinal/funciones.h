@@ -3,12 +3,12 @@
 void menu();
 void dibujarmarco();
 void reglas();
-void jugador_1();
-void jugador_2();
-int tirarDado();
-void cargarNumeros(int vec[], int tam);
-void mostrarNumeros(int vec[], int tam);
+void one_player();
+void two_player();
 void dibujarCuadrado(int posx, int posy);
 void dibujarDado(int posx, int posy, int num);
-void mostrardados();
+void dibujarInterfaz();
+void dibujarpuntaje();
+
 #endif // FUNCIONES_H_INCLUDED
+
